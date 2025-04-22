@@ -3,9 +3,9 @@ import { Link, NavLink } from 'react-router';
 
 const Header = () => {
     const link = <><li><NavLink>Home</NavLink></li>
-        <li><NavLink>BookMarks</NavLink></li>
-        <li><NavLink>SingUp</NavLink></li>
-        <li><NavLink>Login</NavLink></li>
+        <li><NavLink>Shop</NavLink></li>
+        <li><NavLink>Feather</NavLink></li>
+        <li><NavLink>Contract</NavLink></li>
 
     </>
     return (
