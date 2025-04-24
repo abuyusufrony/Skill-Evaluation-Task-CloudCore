@@ -42,6 +42,7 @@ const Products = ({ productsList }) => {
                         <button type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-600 dark:text-gray-50 cursor-pointer bg-[#224F34] text-white">See Details</button></Link>
                 </div>
             </div>
+
         </div >
     );
 };

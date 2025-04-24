@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Products from '../Products/Products';
+import offer from '../../assets/offer.jpg'
 
 const Product = () => {
 
@@ -35,6 +36,39 @@ const Product = () => {
                 {
                     prodcut.map(p => <Products productsList={p}></Products>)
                 }
+            </div>
+            <div className='offer-conatiner '>
+
+                <section className="dark:bg-gray-100 dark:text-gray-800 bg-[#C2EFD4] my-12  ">
+                    <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between ">
+                        <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+                            <img className='rounded-2xl' src={offer} />
+                        </div>
+                        <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left text-[#224F34]">
+                            <h1 className="text-5xl font-bold leading-none sm:text-6xl">Exclusive offer
+
+                            </h1>
+                            <p className="mt-6 mb-8 text-lg sm:mb-12 text-[#224F34]">Unlock the ultimate style upgrade with our exclusive
+                                <br className="hidden md:inline lg:hidden" />offer Enjoy savings of up to 40% off on our latest New Arrivals
+                            </p>
+                            <div className='flex m-4'>
+                                <div className='w-20 h-8 bg-white m-3'> <h1 className='flex justify-center'>
+                                    6 Days</h1></div>
+                                <div className='w-20 h-8 bg-white m-3'> <h1 className='flex justify-center'>
+                                    18 Hours</h1></div>
+                                <div className='w-20 h-8 bg-white m-3'> <h1 className='flex justify-center'>
+                                    6 mins</h1></div>
+                            </div>
+                            <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+
+                                <a rel="noopener noreferrer" href="#" className="px-8 py-3 text-lg font-semibold border rounded dark:border-gray-800 bg-[#224F34] text-white">BUY NOW</a>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     );
