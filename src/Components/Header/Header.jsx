@@ -2,14 +2,14 @@ import React from 'react';
 import { Link, NavLink } from 'react-router';
 
 const Header = () => {
-    const link = <><li><NavLink>Home</NavLink></li>
-        <li><NavLink>Shop</NavLink></li>
-        <li><NavLink>Feather</NavLink></li>
-        <li><NavLink>Contract</NavLink></li>
+    const link = <><li><NavLink>HOME</NavLink></li>
+        <li className='text-[#224F34]'><NavLink>SHOP</NavLink></li>
+        <li className='text-[#224F34]'><NavLink>FEATURES</NavLink></li>
+        <li className='text-[#224F34]'><NavLink>CONTRACT</NavLink></li>
 
     </>
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar  shadow-sm bg-[#C2EFD4]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

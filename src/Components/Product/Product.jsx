@@ -12,16 +12,25 @@ const Product = () => {
             .catch((err) => console.error("Error fetching data:", err));
 
     }, [])
-    if (!prodcut) {
-        return <h2>Loading...</h2>;
-    }
+
 
 
 
 
     return (
         <div>
-            <h2>This are prodcut section {prodcut.length}  </h2>
+            <h2 className='text-center text-2xl font-bold mt-2.5 text-[#224F34]'>Our products  </h2>
+
+            <div className='flex justify-around mb-2.5 text-[#454545] font-bold'>
+                <div> <h1 className=''>SALE</h1>
+                </div>
+                <div> <h1>HOT</h1>
+                </div>
+                <div> <h1>New Arrivals</h1>
+                </div>
+                <div> <h1>Accessories</h1>
+                </div>
+            </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-11/12 mx-auto '>
                 {
                     prodcut.map(p => <Products productsList={p}></Products>)
