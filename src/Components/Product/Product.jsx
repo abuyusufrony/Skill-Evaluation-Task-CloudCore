@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import Products from '../Products/Products';
 import offer from '../../assets/offer.jpg'
+import { useNavigation } from 'react-router';
+import Loading from '../Loading/Loading';
 
 const Product = () => {
+    const navigation = useNavigation()
+    if (navigation.state === 'loading') return <Loading></Loading>
 
     const [prodcut, setproduct] = useState([])
 
@@ -13,6 +17,7 @@ const Product = () => {
             .catch((err) => console.error("Error fetching data:", err));
 
     }, [])
+
 
 
 
@@ -32,9 +37,10 @@ const Product = () => {
                 <div> <h1>Accessories</h1>
                 </div>
             </div>
+
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-11/12 mx-auto '>
                 {
-                    prodcut.map(p => <Products productsList={p}></Products>)
+                    prodcut.map(p => <Products productsList={p}  ></Products>)
                 }
             </div>
             <div className='offer-conatiner '>

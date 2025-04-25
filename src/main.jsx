@@ -7,6 +7,7 @@ import Home from './Components/Home/Home.jsx'
 import Body from './Layout/Body.jsx'
 import ProductsDetails from './Components/ProductsDetails/ProductsDetails.jsx'
 import Products from './Components/Products/Products.jsx'
+import Product from './Components/Product/Product.jsx'
 const router = createBrowserRouter([{
   path: '/',
   element: <Body></Body>,
@@ -16,8 +17,8 @@ const router = createBrowserRouter([{
       element: <Home></Home>
     },
     {
-      path: '/products',
-      element: <Products></Products>
+      path: '/Product',
+      element: <Product></Product>
     },
     {
       path: '/:id',

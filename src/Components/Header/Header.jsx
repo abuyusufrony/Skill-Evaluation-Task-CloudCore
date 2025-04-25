@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router';
 
 const Header = () => {
     const link = <><li><NavLink>HOME</NavLink></li>
-        <li className='text-[#224F34]'><NavLink>SHOP</NavLink></li>
+        <li className='text-[#224F34]'><NavLink to='/Product'>SHOP</NavLink></li>
         <li className='text-[#224F34]'><NavLink>FEATURES</NavLink></li>
         <li className='text-[#224F34]'><NavLink>CONTRACT</NavLink></li>
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const Products = ({ productsList }) => {
-    const { image, name, product_images, price, discount_amount, id } = productsList
+const Products = ({ productsList, }) => {
+    const { name, product_images, price, discount_amount, id, } = productsList
     return (
         <div>
 
