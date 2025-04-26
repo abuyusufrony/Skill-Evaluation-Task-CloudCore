@@ -4,7 +4,7 @@ A modern web project built with reusable components, focusing on performance, sc
 
 ## 🌐 Live Demo
 
-👉 [View Live Site](https://magnificent-griffin-2df4bb.netlify.app/Product)
+👉 [View Live Site](https://magnificent-griffin-2df4bb.netlify.app)
 
 ## 🧩 Components Included
 
