@@ -1,13 +1,41 @@
-# React + Vite
+# 🚀 Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web project built with reusable components, focusing on performance, scalability, and clean design.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Live Site](https://magnificent-griffin-2df4bb.netlify.app/Product)
 
-## Expanding the ESLint configuration
+## 🧩 Components Included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Skill-Evaluation-Task-CloudCore
+- **Navbar** - Responsive navigation bar with dropdown menus.
+- **Hero Section** - Eye-catching landing section with CTA.
+- **Features** - Grid layout showcasing key features.
+- **About Us** - Story and mission information section.
+- **Pricing** - Flexible and stylish pricing tables.
+- **Testimonials** - Customer feedback slider.
+- **FAQ** - Accordion style FAQ component.
+- **Footer** - Clean footer with important links and social media.
+
+## 🛠️ Technologies Used
+
+- **Next.js / React**  
+- **TailwindCSS**  
+- **TypeScript**  
+- **Framer Motion** (for animations)  
+- **Lucide Icons** (modern icon library)
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate into the project directory
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
