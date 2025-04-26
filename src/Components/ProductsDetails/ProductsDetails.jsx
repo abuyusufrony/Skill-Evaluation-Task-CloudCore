@@ -15,6 +15,7 @@ const ProductsDetails = () => {
 
     return (
         <div className=''>
+
             <div className='bg-[#224F34] h-[450px] rounded'>
                 <div className="text-section text-center ">
                     <h2 className='text-3xl font-bold text-white pt-2.5 '>Product Details</h2>
