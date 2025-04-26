@@ -25,6 +25,15 @@ A modern web project built with reusable components, focusing on performance, sc
 - **Framer Motion** (for animations)  
 - **Lucide Icons** (modern icon library)
 
+## 📬 Contact
+
+If you have any questions, feedback, or collaboration ideas, feel free to reach out!
+
+- 📧 **Email:** abuyusufrony@gmail.com
+- 💼 **LinkedIn:** [abu-yusuf-rony-83859a165](https://www.linkedin.com/in/abu-yusuf-rony-83859a165)
+- 🐦 **Twitter:** [@abuyusufrony2](https://x.com/AbuyusufRony2)
+
+
 ## 📦 Installation
 
 ```bash
